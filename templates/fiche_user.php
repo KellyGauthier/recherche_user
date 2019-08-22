@@ -10,7 +10,8 @@
             <?php echo $user['username']; ?>
             </h2>
         </div>
-            <?php echo $user['date_inscription']; ?> €
+            <?php echo $user['date_inscription']; ?>
+        
         <div class="description">
             <?php echo $user['email']; ?>
         </div>

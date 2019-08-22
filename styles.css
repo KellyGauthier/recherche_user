@@ -1,0 +1,7 @@
+.fiche_user {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }

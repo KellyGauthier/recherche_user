@@ -3,9 +3,8 @@
     require_once 'data/users.php'; ?>
 
 <h1>Liste des utilisateurs</h1>
-<div class="produits_container">
+<div class="fiche_user">
     <?php foreach ($users as $user) {
-
         require_once 'templates/fiche_user.php';
     } ?>
 </div>
