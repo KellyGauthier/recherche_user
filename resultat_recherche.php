@@ -1,8 +1,7 @@
 <?php
-    require_once 'layout/header.php';
-    require_once 'data/users.php';
+require_once 'layout/header.php';
+require_once 'data/users.php';
 
-    var_dump($_GET);
 
 $id = $_GET['recherche'];
 
@@ -14,12 +13,14 @@ if ($key === false) {
 }
 
 $user = $users[$key];
-   
-require_once 'templates/fiche_user.php'; 
+
+require_once 'templates/fiche_user.php';
 
 ?>
 
-
+<a href="index.php" class="btn btn-primary" role="button">Retour à la page d'accueil</a>
+<a href="recherche.php" class="btn btn-primary" role="button">Effectuer une nouvelle recherche</a>
+<a href="liste_utilisateurs.php" class="btn btn-primary" role="button">Liste des utilisateurs</a>
 
 
 <?php require_once 'layout/footer.php' ?>

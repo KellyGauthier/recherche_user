@@ -1,13 +1,14 @@
 <?php require_once 'layout/header.php'; ?>
 
-  <div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
     <h1>Bienvenue !</h1>
-    <ul>
-        <li><a href="recherche.php">Effectuer une recherche</a></li>
-        <li><a href="liste_utilisateurs.php">Liste des utilisateurs</a></li>
-    </ul>
+
+    <a href="recherche.php" class="btn btn-primary" role="button">Effectuer une recherche</a>
+    <a href="liste_utilisateurs.php" class="btn btn-primary" role="button">Liste des utilisateurs</a>
+
   </div>
+</div>
 
 
-
-<?php require_once 'layout/footer.php';?>
+<?php require_once 'layout/footer.php'; ?>

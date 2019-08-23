@@ -1,10 +1,10 @@
-<div class="produit">
-    <div class="header">
-        <span class="profile_image">
+<div>
+    <div>
+        <span>
         <img src="<?php echo $user["profile_image"]; ?>" />
         </span>
     </div>
-    <div class="infos">
+    <div>
         <div class="title">
             <h2>
             <?php echo $user['username']; ?>
@@ -12,7 +12,7 @@
         </div>
             <?php echo $user['date_inscription']; ?>
         
-        <div class="description">
+        <div>
             <?php echo $user['email']; ?>
         </div>
     </div>

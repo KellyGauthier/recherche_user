@@ -14,10 +14,8 @@
 </div>
 
 <div>
-    <ul>
-        <li><a href="index.php">Retour à la page d'accueil</a></li>
-        <li><a href="liste_utilisateurs.php">Voir la liste des utilisateurs</a></li>
-    </ul>
+    <a href="index.php" class="btn btn-primary" role="button">Retour à la page d'accueil</a>
+    <a href="liste_utilisateurs.php" class="btn btn-primary" role="button">Voir la liste des utilisateurs</a>
 </div>
 
 <?php require_once 'layout/footer.php'; ?>
